@@ -7,10 +7,13 @@
 //     i++;
 // }
 
+
 // console.log('FOR');
 // for(let j = 0; j <filmes.length; j++){
 //     console.log(filems[j]);
 // }
+
+
 // // FOR IN , asume o indice a pocisão
 
 // console.log("FOR IN");
@@ -32,22 +35,38 @@
 // pedir idade do usuario
 // mostrar so os filmes que ele pode assistir
 
-let idade = Nunber(prompt ("digite sua idade"));
+// let idade = Nunber(prompt ("digite sua idade"));
 
-while(idade < 0 || isNaN(idade)){
-    alert("Idade invalida. Digite novamente")
+// while(idade < 0 || isNaN(idade)){
+//     alert("Idade invalida. Digite novamente")
+// }
+
+// let filmes = [
+//     {titulo: "Invocação do Mal", classificado: 16},
+//     {titulo: "Sharkboy e Lavagirl", classificado: 0},
+//     {titulo: "Senhor dos aneis", classificado: 12},
+//     {titulo: "Ninja Assasino", classificado: 18},
+//     {titulo: "Velozes e Furiosos", classificado: 18},
+// ];
+// for(let filme of filmes){
+//     // console.log(filme);
+//     if( idade >= filme.classificado){
+//         console.log ("pode assitir", filme.titulo)
+//     }
+// }
+
+////////////////////////////////////////////////////////////
+
+// Exercio 2
+let material = prompt("Digite o materia");
+let qtdDegraus = Number(prompt("Digite a quantidade de degraus"));
+let escada = "";
+
+for(let contador = 0; contador < qtdDegraus; contador++ ){
+    escada += material;
+    console.log(escada);
 }
 
-let filmes = [
-    {titulo: "Invocação do Mal", classificado: 16},
-    {titulo: "Sharkboy e Lavagirl", classificado: 0},
-    {titulo: "Senhor dos aneis", classificado: 12},
-    {titulo: "Ninja Assasino", classificado: 18},
-    {titulo: "Velozes e Furiosos", classificado: 18},
-];
-for(let filme of filmes){
-    // console.log(filme);
-    if( idade >= filme.classificado){
-        console.log ("pode assitir", filme.titulo)
-    }
-}
+
+// materia = material + "#", material += "?", é igual ao começo.
+// material += "#" 
